@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(166, 243, 243);
+}
+.hero{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(216, 191, 240);
+    order:1;
+   }
+.sidebar{
+    width: 30%;
+    height: 800px;
+    background-color: rgb(192, 233, 151);
+    order:2;
+}
+.main_content{
+    width:70%;
+    height: 800px;
+    background-color: rgb(231, 205, 139);
+    order:3;
+   }
+.extra_content{
+    width: 70%;
+    height: 400px;
+    background-color: silver;
+    order:4;
+}
+.related_images{
+    width: 70%;
+    height: 200px;
+    background-color: rgb(131, 233, 233);
+}
+.related_posts{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(235, 183, 235);
+}
+#footer{
+    width:100%;
+    height: 75px;
+    background-color: rgb(223, 223, 135);
+}
+.start{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.related{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+}
